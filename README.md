@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/dhatim/business-hours-java.svg?branch=master)](https://travis-ci.org/dhatim/root-pom-oss)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.dhatim/root-oss/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.dhatim/root-oss)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dhatim/root-oss/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.dhatim/root-oss)
 
 # Maven root POM for Open Source Dhatim projects
 
@@ -91,7 +91,7 @@ In your project top-level pom, instead of e.g.:
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dhatim</groupId>
+    <groupId>org.dhatim</groupId>
     <artifactId>my-oss-project</artifactId>
     <version>x.y.z-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -106,7 +106,7 @@ set it up so it inherits this artifact:
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.dhatim</groupId>
+        <groupId>org.dhatim</groupId>
         <artifactId>root-oss</artifactId>
         <version>0.0.2</version>
     </parent>
