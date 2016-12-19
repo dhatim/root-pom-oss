@@ -27,6 +27,8 @@
 
     <scm>
         <connection>scm:git:git@github.com:dhatim/root-pom-oss.git</connection>
+        <developerConnection>scm:git:ssh://github.com:dhatim/root-pom-oss.git</developerConnection>
+        <url>https://github.com/dhatim/root-pom-oss/tree/${project.version}</url>
     </scm>
 
     <distributionManagement>
@@ -186,7 +188,7 @@
             <dependency>
                 <groupId>org.dhatim.io.dropwizard</groupId>
                 <artifactId>dropwizard-metrics-elasticsearch</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.9</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.logging</groupId>
@@ -201,7 +203,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>2.3.5</version>
+                <version>2.3.7</version>
             </dependency>
             <dependency>
                 <groupId>org.postgresql</groupId>
@@ -288,6 +290,10 @@
                 <plugin>
                     <artifactId>maven-failsafe-plugin</artifactId>
                     <version>2.19.1</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-gpg-plugin</artifactId>
+                    <version>1.6</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-idea-plugin</artifactId>
@@ -405,6 +411,11 @@
                     <version>3.2</version>
                 </plugin>
                 <plugin>
+                    <groupId>org.sonatype.plugins</groupId>
+                    <artifactId>nexus-staging-maven-plugin</artifactId>
+                    <version>1.6.7</version>
+                </plugin>
+                <plugin>
                     <groupId>org.vafer</groupId>
                     <artifactId>jdeb</artifactId>
                     <version>1.5</version>
@@ -484,4 +495,36 @@
             </plugin>
         </plugins>
     </build>
+    
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>ossrh</serverId>
+                            <nexusUrl>https://oss.sonatype.org</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
