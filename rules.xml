@@ -4,7 +4,12 @@
     <rules>
         <rule groupId="org.mockito" artifactId="mockito-core">
             <ignoreVersions>
-                <ignoreVersion type="regex">2\.0\.[0-9]+-beta</ignoreVersion>
+                <ignoreVersion type="regex">.+-beta.*</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="org.postgresql" artifactId="postgresql">
+            <ignoreVersions>
+                <ignoreVersion type="regex">.+\.jre.*</ignoreVersion>
             </ignoreVersions>
         </rule>
     </rules>
