@@ -7,6 +7,10 @@
     <version>0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Maven root POM for Open Source Dhatim projects</description>
+    <url>https://github.com/dhatim/root-pom-oss</url>
+
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
