@@ -21,22 +21,6 @@ set.
 
 ## How to Release
 
-TBD
-
-<!--
-This project is set up according to the
-[Maven Releases on Steroids](https://axelfontaine.com/blog/final-nail.html)
-way. You can read by yourself how it works, but day to day it means that:
-
-- If you edit anything in this project, keep the version `0-SNAPSHOT`.
-
-- Releases are
-[jenkins](http://jenkins.dhatim.it/job/root-pom/)-driven. When
-["Performing Maven Release"](http://jenkins.dhatim.it/job/root-pom/m2release),
-fill in the desired "Release Version" field. The "Development version"
-field, on the other hand, is unused.
--->
-
 ### Semantic versioning
 
 We apply the [semantic versioning rules](http://semver.org/) with the following adaptations:
@@ -60,6 +44,10 @@ $ git tag
 3.2.0
 4.0.0
 ```
+
+### Performing the release
+
+Click on the ["Releases" tab](https://github.com/dhatim/root-pom-oss/releases) in the github UI, then "Draft a new release". Enter the version you want to release a a tag, and you're all set. 
 
 ## How to Contribute
 
