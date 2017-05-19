@@ -407,7 +407,6 @@
                         <verbose>true</verbose>
                         <showLogs>true</showLogs>
                         <logDate>DEFAULT</logDate>
-                        <autoPull>always</autoPull>
                     </configuration>
                 </plugin>
                 <plugin>
