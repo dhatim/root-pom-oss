@@ -502,6 +502,9 @@
                         </goals>
                         <configuration>
                             <rules>
+                                <requireMavenVersion>
+                                    <version>3.3.3</version>
+                                </requireMavenVersion>
                                 <requireReleaseDeps>
                                     <onlyWhenRelease>true</onlyWhenRelease>
                                 </requireReleaseDeps>
@@ -512,7 +515,7 @@
                                         <additionalPlugin>org.apache.maven.plugins:maven-idea-plugin</additionalPlugin>
                                     </additionalPlugins>
                                 </requirePluginVersions>
-                                <dependencyConvergence></dependencyConvergence>
+                                <dependencyConvergence/>
                             </rules>
                             <fail>true</fail>
                         </configuration>
