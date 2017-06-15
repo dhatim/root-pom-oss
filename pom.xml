@@ -25,10 +25,6 @@
         </developer>
     </developers>
 
-    <prerequisites>
-        <maven>3.1.0</maven>
-    </prerequisites>
-
     <scm>
         <connection>scm:git:git@github.com:dhatim/root-pom-oss.git</connection>
         <developerConnection>scm:git:ssh://github.com:dhatim/root-pom-oss.git</developerConnection>
