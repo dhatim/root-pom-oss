@@ -163,7 +163,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-csv</artifactId>
-                <version>1.4</version>
+                <version>1.5</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -218,12 +218,12 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql</artifactId>
-                <version>0.8.0</version>
+                <version>0.8.1</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql-builder</artifactId>
-                <version>0.8.0</version>
+                <version>0.8.1</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim.io.dropwizard</groupId>
@@ -298,7 +298,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>2.8.47</version>
+                <version>2.9.0</version>
             </dependency>
             <dependency>
                 <groupId>org.postgresql</groupId>
@@ -323,7 +323,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>6.9.10</version>
+                <version>6.12</version>
             </dependency>
             <dependency>
                 <groupId>org.webjars</groupId>
