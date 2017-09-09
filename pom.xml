@@ -32,6 +32,11 @@
     </scm>
 
     <distributionManagement>
+        <repository>
+            <id>bintray</id>
+            <name>BintrayForTestNG</name>
+            <url>https://jcenter.bintray.com/</url>
+        </repository>          
         <snapshotRepository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
