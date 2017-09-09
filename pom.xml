@@ -32,11 +32,6 @@
     </scm>
 
     <distributionManagement>
-        <repository>
-            <id>bintray</id>
-            <name>BintrayForTestNG</name>
-            <url>https://jcenter.bintray.com/</url>
-        </repository>          
         <snapshotRepository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -362,6 +357,19 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>bintray</id>
+            <name>BintrayForTestNG</name>
+            <url>https://jcenter.bintray.com/</url>
+        </repository>          
+    </repositories>
     <build>
         <pluginManagement>
             <plugins>
