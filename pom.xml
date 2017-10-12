@@ -76,12 +76,12 @@
             <dependency>
                 <groupId>com.sun.xml.bind</groupId>
                 <artifactId>jaxb-core</artifactId>
-                <version>2.3.0-b170127.1453</version>
+                <version>2.3.0</version>
             </dependency>
             <dependency>
                 <groupId>com.sun.xml.bind</groupId>
                 <artifactId>jaxb-impl</artifactId>
-                <version>2.3.0-b170127.1453</version>
+                <version>2.3.0</version>
             </dependency>
             <dependency>
                 <groupId>com.voodoodyne.jackson.jsog</groupId>
@@ -113,7 +113,7 @@
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt</artifactId>
-                <version>0.8.0</version>
+                <version>0.9.0</version>
             </dependency>
             <dependency>
                 <groupId>io.swagger</groupId>
@@ -128,7 +128,7 @@
             <dependency>
                 <groupId>javax.xml.bind</groupId>
                 <artifactId>jaxb-api</artifactId>
-                <version>2.3.0-b170201.1204</version>
+                <version>2.3.0</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
@@ -207,6 +207,11 @@
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
+                <artifactId>dropwizard-raven</artifactId>
+                <version>1.2.0-1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel</artifactId>
                 <version>0.9.0</version>
             </dependency>
@@ -238,47 +243,47 @@
             <dependency>
                 <groupId>org.eclipse.xtend</groupId>
                 <artifactId>org.eclipse.xtend.lib</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.ide</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.web.servlet</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.xbase</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.xbase.ide</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.xbase.web</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.xtext</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.xtext.generator</artifactId>
-                <version>2.10.0</version>
+                <version>2.12.0</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.logging</groupId>
@@ -288,7 +293,7 @@
             <dependency>
                 <groupId>org.knowm</groupId>
                 <artifactId>dropwizard-sundial</artifactId>
-                <version>1.1.1.0</version>
+                <version>1.2.0</version>
             </dependency>
             <dependency>
                 <groupId>org.mockito</groupId>
