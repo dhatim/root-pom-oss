@@ -532,11 +532,6 @@
                     <groupId>io.fabric8</groupId>
                     <artifactId>docker-maven-plugin</artifactId>
                     <version>0.22.1</version>
-                    <configuration>
-                        <verbose>true</verbose>
-                        <showLogs>true</showLogs>
-                        <logDate>DEFAULT</logDate>
-                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.antlr</groupId>
