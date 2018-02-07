@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.dhatim</groupId>
@@ -146,6 +147,11 @@
                 <version>2.0.1</version>
             </dependency>
             <dependency>
+                <groupId>net.gini.dropwizard</groupId>
+                <artifactId>dropwizard-gelf</artifactId>
+                <version>1.2.0-1</version>
+            </dependency>
+            <dependency>
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-runtime</artifactId>
                 <version>4.7.1</version>
@@ -158,7 +164,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
-                <version>1.15</version>
+                <version>1.16</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -239,11 +245,6 @@
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql-builder</artifactId>
                 <version>0.8.2</version>
-            </dependency>
-            <dependency>
-                <groupId>org.dhatim.io.dropwizard</groupId>
-                <artifactId>dropwizard-metrics-elasticsearch</artifactId>
-                <version>1.0.9</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.emf</groupId>
@@ -383,7 +384,7 @@
             <id>bintray</id>
             <name>BintrayForTestNG</name>
             <url>https://jcenter.bintray.com/</url>
-        </repository>          
+        </repository>
     </repositories>
     <build>
         <pluginManagement>
@@ -532,10 +533,10 @@
                     <groupId>io.fabric8</groupId>
                     <artifactId>docker-maven-plugin</artifactId>
                     <version>0.23.0</version>
-                    <configuration>		
-                        <verbose>true</verbose>		
-                        <showLogs>true</showLogs>		
-                        <logDate>DEFAULT</logDate>		
+                    <configuration>
+                        <verbose>true</verbose>
+                        <showLogs>true</showLogs>
+                        <logDate>DEFAULT</logDate>
                     </configuration>
                 </plugin>
                 <plugin>
