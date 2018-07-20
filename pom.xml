@@ -239,12 +239,12 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql</artifactId>
-                <version>0.8.5</version>
+                <version>0.8.6</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql-builder</artifactId>
-                <version>0.8.5</version>
+                <version>0.8.6</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.emf</groupId>
