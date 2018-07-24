@@ -233,6 +233,11 @@
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
+                <artifactId>dropwizard-sftp</artifactId>
+                <version>1.1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel</artifactId>
                 <version>0.9.3</version>
             </dependency>
@@ -245,11 +250,6 @@
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql-builder</artifactId>
                 <version>0.8.6</version>
-            </dependency>
-            <dependency>
-                <groupId>org.dhatim</groupId>
-                <artifactId>dropwizard-sftp</artifactId>
-                <version>1.1.1</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.emf</groupId>
