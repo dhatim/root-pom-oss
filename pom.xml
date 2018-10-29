@@ -552,7 +552,7 @@
                         <verbose>true</verbose>
                         <showLogs>true</showLogs>
                         <logDate>DEFAULT</logDate>
-                        <containerNamePattern>%a-%i</containerNamePattern>
+                        <containerNamePattern>%a-%t</containerNamePattern>
                     </configuration>
                 </plugin>
                 <plugin>
