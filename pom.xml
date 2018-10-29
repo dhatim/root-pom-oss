@@ -547,11 +547,12 @@
                 <plugin>
                     <groupId>io.fabric8</groupId>
                     <artifactId>docker-maven-plugin</artifactId>
-                    <version>0.26.1</version>
+                    <version>0.27.2</version>
                     <configuration>
                         <verbose>true</verbose>
                         <showLogs>true</showLogs>
                         <logDate>DEFAULT</logDate>
+                        <containerNamePattern>%a-%t</containerNamePattern>
                     </configuration>
                 </plugin>
                 <plugin>
