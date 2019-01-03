@@ -57,7 +57,7 @@
             <dependency>
                 <groupId>com.github.jsqlparser</groupId>
                 <artifactId>jsqlparser</artifactId>
-                <version>1.2</version>
+                <version>1.3</version>
             </dependency>
             <dependency>
                 <groupId>com.google.code.gson</groupId>
@@ -112,7 +112,7 @@
             <dependency>
                 <groupId>io.dropwizard</groupId>
                 <artifactId>dropwizard-bom</artifactId>
-                <version>1.3.7</version>
+                <version>1.3.8</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -169,7 +169,7 @@
             <dependency>
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-runtime</artifactId>
-                <version>4.7.1</version>
+                <version>4.7.2</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -224,7 +224,7 @@
             <dependency>
                 <groupId>org.awaitility</groupId>
                 <artifactId>awaitility</artifactId>
-                <version>3.1.4</version>
+                <version>3.1.5</version>
             </dependency>
             <dependency>
                 <groupId>org.bouncycastle</groupId>
