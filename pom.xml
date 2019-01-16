@@ -249,22 +249,22 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>dropwizard-sftp</artifactId>
-                <version>1.3.8</version>
+                <version>1.3.8-1</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel</artifactId>
-                <version>0.9.8</version>
+                <version>0.9.10</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-reader</artifactId>
-                <version>0.9.8</version>
+                <version>0.9.10</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-writer</artifactId>
-                <version>0.9.8</version>
+                <version>0.9.10</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
