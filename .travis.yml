@@ -1,4 +1,5 @@
 language: java
-jdk: oraclejdk8
+dist: trusty
+jdk: openjdk8
 install: true
 script: . .travis/script.sh
