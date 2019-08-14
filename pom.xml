@@ -54,7 +54,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>5.1.8.RELEASE</version>
+                <version>5.1.9.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -62,7 +62,7 @@
             <dependency>
                 <groupId>io.dropwizard</groupId>
                 <artifactId>dropwizard-bom</artifactId>
-                <version>1.3.13</version>
+                <version>1.3.14</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -105,7 +105,7 @@
             <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
-                <version>1.12</version>
+                <version>1.13</version>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>
@@ -215,7 +215,7 @@
             <dependency>
                 <groupId>org.assertj</groupId>
                 <artifactId>assertj-core</artifactId>
-                <version>3.12.2</version>
+                <version>3.13.2</version>
             </dependency>
             <dependency>
                 <groupId>org.awaitility</groupId>
@@ -250,17 +250,17 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel</artifactId>
-                <version>0.10.8</version>
+                <version>0.10.9</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-reader</artifactId>
-                <version>0.10.8</version>
+                <version>0.10.9</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-writer</artifactId>
-                <version>0.10.8</version>
+                <version>0.10.9</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
@@ -350,7 +350,7 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-simple</artifactId>
-                <version>1.7.26</version>
+                <version>1.7.28</version>
             </dependency>
             <dependency>
                 <groupId>org.testng</groupId>
@@ -375,7 +375,7 @@
             <dependency>
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
-                <version>1.24</version>
+                <version>1.25</version>
             </dependency>
             <dependency>
                 <groupId>uk.com.robust-it</groupId>
@@ -522,7 +522,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-site-plugin</artifactId>
-                    <version>3.7.1</version>
+                    <version>3.8.2</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-source-plugin</artifactId>
@@ -543,12 +543,12 @@
                 <plugin>
                     <groupId>com.github.eirslett</groupId>
                     <artifactId>frontend-maven-plugin</artifactId>
-                    <version>1.7.6</version>
+                    <version>1.8.0</version>
                 </plugin>
                 <plugin>
                     <groupId>io.fabric8</groupId>
                     <artifactId>docker-maven-plugin</artifactId>
-                    <version>0.30.0</version>
+                    <version>0.31.0</version>
                     <configuration>
                         <verbose>true</verbose>
                         <showLogs>true</showLogs>
