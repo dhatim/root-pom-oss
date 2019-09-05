@@ -265,7 +265,7 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql</artifactId>
-                <version>0.9.1</version>
+                <version>0.9.3</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
