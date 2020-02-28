@@ -54,7 +54,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>5.2.3.RELEASE</version>
+                <version>5.2.4.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -255,12 +255,12 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql</artifactId>
-                <version>0.9.3</version>
+                <version>0.9.4</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql-builder</artifactId>
-                <version>0.9.3</version>
+                <version>0.9.4</version>
             </dependency>
             <dependency>
                 <groupId>org.knowm</groupId>
@@ -270,7 +270,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>3.3.0</version>
+                <version>3.3.1</version>
             </dependency>
             <dependency>
                 <groupId>org.postgresql</groupId>
@@ -290,7 +290,7 @@
             <dependency>
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
-                <version>1.25</version>
+                <version>1.26</version>
             </dependency>
             <dependency>
                 <groupId>uk.com.robust-it</groupId>
