@@ -54,7 +54,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>5.2.5.RELEASE</version>
+                <version>5.2.6.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -62,7 +62,7 @@
             <dependency>
                 <groupId>io.dropwizard</groupId>
                 <artifactId>dropwizard-bom</artifactId>
-                <version>2.0.8</version>
+                <version>2.0.9</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -225,7 +225,7 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>dropwizard-jwt-cookie-authentication</artifactId>
-                <version>4.2.0</version>
+                <version>4.2.2</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
@@ -240,17 +240,17 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel</artifactId>
-                <version>0.10.14</version>
+                <version>0.10.15</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-reader</artifactId>
-                <version>0.10.14</version>
+                <version>0.10.15</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-writer</artifactId>
-                <version>0.10.14</version>
+                <version>0.10.15</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
@@ -321,7 +321,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-assembly-plugin</artifactId>
-                    <version>3.2.0</version>
+                    <version>3.3.0</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-checkstyle-plugin</artifactId>
@@ -453,7 +453,7 @@
                 <plugin>
                     <groupId>com.github.eirslett</groupId>
                     <artifactId>frontend-maven-plugin</artifactId>
-                    <version>1.9.1</version>
+                    <version>1.10.0</version>
                 </plugin>
                 <plugin>
                     <groupId>io.fabric8</groupId>
