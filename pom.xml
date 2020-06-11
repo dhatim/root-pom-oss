@@ -54,7 +54,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>5.2.6.RELEASE</version>
+                <version>5.2.7.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -275,7 +275,7 @@
             <dependency>
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
-                <version>42.2.13</version>
+                <version>42.2.14</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
