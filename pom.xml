@@ -260,17 +260,17 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel</artifactId>
-                <version>0.10.16</version>
+                <version>0.10.17</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-reader</artifactId>
-                <version>0.10.16</version>
+                <version>0.10.17</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-writer</artifactId>
-                <version>0.10.16</version>
+                <version>0.10.17</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
