@@ -285,7 +285,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>3.5.10</version>
+                <version>3.5.13</version>
             </dependency>
             <dependency>
                 <groupId>org.postgresql</groupId>
@@ -473,7 +473,7 @@
                 <plugin>
                     <groupId>io.fabric8</groupId>
                     <artifactId>docker-maven-plugin</artifactId>
-                    <version>0.34.0</version>
+                    <version>0.33.0</version>
                     <configuration>
                         <verbose>true</verbose>
                         <showLogs>true</showLogs>
