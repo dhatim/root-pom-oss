@@ -78,16 +78,6 @@
                 <version>2.0.12-1</version>
             </dependency>
             <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-core</artifactId>
-                <version>3.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-impl</artifactId>
-                <version>3.0.0</version>
-            </dependency>
-            <dependency>
                 <groupId>com.voodoodyne.jackson.jsog</groupId>
                 <artifactId>jackson-jsog</artifactId>
                 <version>1.1.1</version>
@@ -141,11 +131,6 @@
                 <groupId>javax.validation</groupId>
                 <artifactId>validation-api</artifactId>
                 <version>2.0.1.Final</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.xml.bind</groupId>
-                <artifactId>jaxb-api</artifactId>
-                <version>2.3.0</version>
             </dependency>
             <dependency>
                 <groupId>javax.xml.ws</groupId>
@@ -500,11 +485,6 @@
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>exec-maven-plugin</artifactId>
                     <version>3.0.0</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>jaxb2-maven-plugin</artifactId>
-                    <version>2.5.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
