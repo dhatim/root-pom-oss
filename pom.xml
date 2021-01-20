@@ -78,11 +78,6 @@
                 <version>2.0.12-1</version>
             </dependency>
             <dependency>
-                <groupId>com.voodoodyne.jackson.jsog</groupId>
-                <artifactId>jackson-jsog</artifactId>
-                <version>1.1.1</version>
-            </dependency>
-            <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>1.15</version>
@@ -200,7 +195,7 @@
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
-                <version>4.1.2</version>
+                <version>5.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.assertj</groupId>
@@ -270,7 +265,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>3.7.0</version>
+                <version>3.7.7</version>
             </dependency>
             <dependency>
                 <groupId>org.postgresql</groupId>
