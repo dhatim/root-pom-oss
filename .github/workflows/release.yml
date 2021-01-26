@@ -24,7 +24,7 @@ jobs:
                     # the tag looks like a version number: proceed with release
                     echo ${GPG_SECRET_KEY} | base64 --decode | gpg --import --no-tty --batch --yes
                     echo ${GPG_OWNERTRUST} | base64 --decode | gpg --import-ownertrust --no-tty --batch --yes
-                    mvn versions:set -DnewVersion=${TAG}
+                    mvn -ntp versions:set -DnewVersion=${TAG}
                     mvn -ntp -s .github/settings.xml -Prelease sortpom:verify deploy
                 else
                     # this is a regular build
