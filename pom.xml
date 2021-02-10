@@ -235,17 +235,17 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel</artifactId>
-                <version>0.12.3</version>
+                <version>0.12.4</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-reader</artifactId>
-                <version>0.12.3</version>
+                <version>0.12.4</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-writer</artifactId>
-                <version>0.12.3</version>
+                <version>0.12.4</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
@@ -499,7 +499,7 @@
                 <plugin>
                     <groupId>org.liquibase</groupId>
                     <artifactId>liquibase-maven-plugin</artifactId>
-                    <version>4.2.2</version>
+                    <version>4.3.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.sonarsource.scanner.maven</groupId>
