@@ -163,15 +163,6 @@
                 <version>1.20</version>
             </dependency>
             <dependency>
-                <!--
-                required by commons-compress to support 7z file format
-                see http://commons.apache.org/proper/commons-compress/limitations.html
-                -->
-                <groupId>org.tukaani</groupId>
-                <artifactId>xz</artifactId>
-                <version>1.8</version>
-            </dependency>
-            <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-csv</artifactId>
                 <version>1.8</version>
@@ -290,6 +281,15 @@
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>7.3.0</version>
+            </dependency>
+            <dependency>
+                <!--
+                required by commons-compress to support 7z file format
+                see http://commons.apache.org/proper/commons-compress/limitations.html
+                -->
+                <groupId>org.tukaani</groupId>
+                <artifactId>xz</artifactId>
+                <version>1.8</version>
             </dependency>
             <dependency>
                 <groupId>org.yaml</groupId>
