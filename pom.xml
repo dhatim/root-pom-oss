@@ -280,7 +280,8 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>7.4.0</version>
+                <!-- 7.4.0 makes tests fail -->
+                <version>7.3.0</version>
             </dependency>
             <dependency>
                 <!--
