@@ -235,17 +235,17 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel</artifactId>
-                <version>0.12.6</version>
+                <version>0.12.7</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-reader</artifactId>
-                <version>0.12.6</version>
+                <version>0.12.7</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>fastexcel-writer</artifactId>
-                <version>0.12.6</version>
+                <version>0.12.7</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
@@ -474,7 +474,7 @@
                 <plugin>
                     <groupId>org.antlr</groupId>
                     <artifactId>antlr4-maven-plugin</artifactId>
-                    <version>4.9.1</version>
+                    <version>4.9.2</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
@@ -509,7 +509,7 @@
                 <plugin>
                     <groupId>org.liquibase</groupId>
                     <artifactId>liquibase-maven-plugin</artifactId>
-                    <version>4.3.1</version>
+                    <version>4.3.2</version>
                 </plugin>
                 <plugin>
                     <groupId>org.sonarsource.scanner.maven</groupId>
@@ -602,7 +602,7 @@
             <plugin>
                 <groupId>com.github.ekryd.sortpom</groupId>
                 <artifactId>sortpom-maven-plugin</artifactId>
-                <version>2.13.1</version>
+                <version>2.14.0</version>
                 <configuration>
                     <sortDependencies>groupId,artifactId</sortDependencies>
                     <verifyFail>Stop</verifyFail>
