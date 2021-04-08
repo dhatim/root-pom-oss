@@ -250,12 +250,12 @@
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql</artifactId>
-                <version>0.9.5</version>
+                <version>0.9.8</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
                 <artifactId>safesql-builder</artifactId>
-                <version>0.9.5</version>
+                <version>0.9.8</version>
             </dependency>
             <dependency>
                 <groupId>org.knowm</groupId>
