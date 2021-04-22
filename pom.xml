@@ -331,15 +331,6 @@
                 <plugin>
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>3.1.2</version>
-                    <executions>
-                        <execution>
-                            <id>validate</id>
-                            <phase>validate</phase>
-                            <goals>
-                                <goal>check</goal>
-                            </goals>
-                        </execution>
-                    </executions>
                     <configuration>
                         <checkstyleRules>
                             <module name="Checker">
@@ -347,6 +338,15 @@
                             </module>
                         </checkstyleRules>
                     </configuration>
+                    <executions>
+                        <execution>
+                            <id>validate</id>
+                            <goals>
+                                <goal>check</goal>
+                            </goals>
+                            <phase>validate</phase>
+                        </execution>
+                    </executions>
                 </plugin>
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
@@ -547,26 +547,26 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>display-dependency-updates</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>display-dependency-updates</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>display-plugin-updates</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>display-plugin-updates</goal>
-                        </goals>
-                    </execution>
-                </executions>
                 <inherited>false</inherited>
                 <configuration>
                     <rulesUri>file://${project.basedir}/rules.xml</rulesUri>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>display-dependency-updates</id>
+                        <goals>
+                            <goal>display-dependency-updates</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                    <execution>
+                        <id>display-plugin-updates</id>
+                        <goals>
+                            <goal>display-plugin-updates</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <artifactId>maven-enforcer-plugin</artifactId>
@@ -618,15 +618,6 @@
                 <plugins>
                     <plugin>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>sign-artifacts</id>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>sign</goal>
-                                </goals>
-                            </execution>
-                        </executions>
                         <configuration>
                             <!-- see https://myshittycode.com/2017/08/07/maven-gpg-plugin-prevent-signing-prompt-or-gpg-signing-failed-no-such-file-or-directory-error/ -->
                             <gpgArguments>
@@ -634,6 +625,15 @@
                                 <arg>loopback</arg>
                             </gpgArguments>
                         </configuration>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                                <phase>verify</phase>
+                            </execution>
+                        </executions>
                     </plugin>
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
