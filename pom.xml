@@ -270,7 +270,7 @@
             <dependency>
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
-                <version>42.2.19</version>
+                <version>42.2.20</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -449,11 +449,6 @@
                     <configuration>
                         <trimStackTrace>false</trimStackTrace>
                     </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>com.github.adrianboimvaser</groupId>
-                    <artifactId>postgresql-maven-plugin</artifactId>
-                    <version>0.2</version>
                 </plugin>
                 <plugin>
                     <groupId>com.github.eirslett</groupId>
