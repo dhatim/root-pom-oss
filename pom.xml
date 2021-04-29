@@ -248,16 +248,6 @@
                 <version>0.12.9</version>
             </dependency>
             <dependency>
-                <groupId>org.dhatim</groupId>
-                <artifactId>safesql</artifactId>
-                <version>0.9.8</version>
-            </dependency>
-            <dependency>
-                <groupId>org.dhatim</groupId>
-                <artifactId>safesql-builder</artifactId>
-                <version>0.9.8</version>
-            </dependency>
-            <dependency>
                 <groupId>org.knowm</groupId>
                 <artifactId>dropwizard-sundial</artifactId>
                 <version>2.0.0</version>
