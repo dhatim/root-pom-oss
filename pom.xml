@@ -54,7 +54,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>5.3.7</version>
+                <version>5.3.8</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -210,12 +210,12 @@
             <dependency>
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcpg-jdk15on</artifactId>
-                <version>1.68</version>
+                <version>1.69</version>
             </dependency>
             <dependency>
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcprov-jdk15on</artifactId>
-                <version>1.68</version>
+                <version>1.69</version>
             </dependency>
             <dependency>
                 <groupId>org.dhatim</groupId>
@@ -285,7 +285,7 @@
             <dependency>
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
-                <version>1.28</version>
+                <version>1.29</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -509,7 +509,7 @@
                 <plugin>
                     <groupId>org.vafer</groupId>
                     <artifactId>jdeb</artifactId>
-                    <version>1.8</version>
+                    <version>1.9</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
